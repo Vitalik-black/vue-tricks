@@ -1,5 +1,7 @@
 # vue-tricks
 
+[DEMO](https://bizhev.github.io/vue-tricks/)
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +26,8 @@ yarn test:unit
 ```
 yarn lint
 ```
+
+https://github.com/mennekis - HTML5, CSS3
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

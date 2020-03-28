@@ -16,11 +16,15 @@ const routes = [
   },
   {
     path: '/pizza-times',
-    name: 'pizzaTimes',
+    name: 'PizzaTimes',
     component: () => import('@/components/pages/pizzaTimes/PizzaTimes.vue'),
   },
 
-
+  {
+    path: '/weather',
+    name: 'Weather',
+    component: () => import('@/components/pages/weather/Weather.vue'),
+  },
 ];
 
 const router = new VueRouter({
