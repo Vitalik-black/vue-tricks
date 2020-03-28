@@ -29,5 +29,7 @@ yarn lint
 
 https://github.com/mennekis - HTML5, CSS3
 
+https://github.com/xzlink - animation, ui любые элементы
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

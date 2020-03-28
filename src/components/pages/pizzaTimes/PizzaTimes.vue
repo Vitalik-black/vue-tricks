@@ -1,5 +1,5 @@
 <template lang="pug">
-div Hello world
+div Pizza Times!!!
 </template>
 
 <script lang="ts">

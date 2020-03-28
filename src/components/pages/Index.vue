@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-
+      <h2>Общая панель</h2>
     </div>
     <p><router-link to="/pizza-times">eozubarev - pizza times</router-link></p>
     <p><router-link to="/weather">NatatkaValikowsky - weather</router-link></p>
     <router-view/>
   </div>
 </template>
+<script lang="ts">
+import { Vue } from 'vue-property-decorator';
 
+export default class Main extends Vue {
+/* === DATA === */
+}
+
+</script>
 <style lang="scss">
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
